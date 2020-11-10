@@ -2,7 +2,7 @@
 A Keras implementation of MobileFaceNet from [MobileFaceNets: Efficient CNNs for Accurate Real-Time Face Verification on Mobile Devices](https://arxiv.org/abs/1804.07573). It is the 1st time I uploaded my own work. If the license or citation is wrong, please inform me and I will change it ASAP. 
   
 2020.03.27: Modify the implementation of ArcFace loss function and revise the training codes for TensorFlow 2 tf.keras API.  
-2020.03.30: Modify the implementation of resume training scripts for ImageDataGenerator and add the training codes for TensorFlow 2 tf.data API with TFRecords. Thanks to TensorFlow 2, now the training speed on my computer is almost 4 times faster when either using ImageDataGenerator API or TFRecord with td.data API!   
+2020.03.30: Modify the implementation of resume training scripts for ImageDataGenerator and add the training codes for TensorFlow 2 tf.data API with TFRecords. Thanks to TensorFlow 2, now the training speed on my computer is almost 4 times faster when either using ImageDataGenerator API or TFRecord with tf.data API!   
   
 ## 1. Data Preprocessing Strategy  
 (1) Use the celebrity & msra datasets from the Trillion Pairs dataset: http://trillionpairs.deepglint.com/data.  
